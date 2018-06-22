@@ -1,2 +1,7 @@
 # ImageProcessing
-ImageProcessing of Python
+
+
+OpenCVを用いてコンピュータに接続されたカメラから動画を取得し表示する。
+
+連続的に画像を取得するため、while文でqキーが入力されるまで動画の取得と表示を続ける。
+while文を抜けると、VideoCaptureを終了して、開いたウィンドウも終了させる。
